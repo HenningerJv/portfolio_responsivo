@@ -1,0 +1,207 @@
+body
+{
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section
+{
+    width: 100%;
+    height: 95vh;
+    background-image: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Estilo Navegador*/
+
+nav
+{
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 8px 5px 10px rgb(0, 0, 0);
+    padding: 0px 5%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+nav ul li a
+{
+    margin: 30px;
+    font-family: Exo, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.active
+{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+/* Estilos Textos */
+
+.conteudo-texto p:nth-child(1)
+{
+    font-family: calibri;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(2)
+{
+    font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: rgb(255, 255, 255);
+	font-size: 45px;
+}
+
+.conteudo-texto p:nth-child(3)
+{
+	font-family: myriad pro regular;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.conteudo-texto 
+{
+	line-height: 13px;
+	margin: 45px 10px 25px;
+}
+
+.conteudo-texto 
+{
+	position: absolute;
+	left: 15%;
+	top: 36%;
+	transform: translate(-13%, -40%);
+}
+
+.conteudo-texto button
+{
+	width: 110px;
+	height: 43px;
+	border-radius: 13px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+	margin: 0px 20px;
+}
+
+.btn1
+{
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	color: #000000;
+}
+
+button:active
+{
+	transform: scale(1.1);
+}
+
+/* Estilo Imagem banner sem fundo */
+
+.imgbg
+{
+	height: 50px;
+	position: absolute;
+	bottom: 40px;
+	left: 60%;
+	transform: translateX(-70%);
+}
+
+.conteudo-sobre-mim
+{
+	width: 84%;
+	height:340px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	box-shadow: 2px 2px 12px rgb(0, 0, 0);
+	display: flex;
+	margin: -7% auto 20px auto;
+	position: relative;
+	justify-content: space-evenly;
+	align-items: center;	
+}
+
+/* Estilo Imagem Sobre eu */
+
+.conteudo-sobre-mim img
+{
+	height: 250px;
+}
+
+.texto-sobre-mim 
+{
+	width: 550px;
+}
+
+.cotexto-sobre  p:nth-child(1)
+{
+	color: #ffffff;
+	font-family: myriad pro;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 0px;
+}
+
+.texto-sobre-mim  p:nth-child(2)
+{
+	color: #000000;
+	font-size: 13px;
+	font-family: myriad pro;
+	font-weight: bold;
+	line-height: 5px;
+}
+
+.texto-sobre-mim p:nth-child(3),
+.texto-sobre-mim p:nth-child(4)
+{
+	color: #000000;
+	font-family: calibri;
+	font-size: 16px;
+}
+
+.texto-sobre-mim button
+{
+	width: 120px;
+	height: 40px;
+	color: #ffffff;
+	outline: none;
+	border:none;
+	font-family: calibri;
+	background-color: #000000;
+}
+
